@@ -1,0 +1,12 @@
+# ninja log v6
+11	1025	7499988560226844	CMakeFiles/labek1.dir/main.cpp.obj	99482c6a1ef340b5
+1038	1649	7499988570485123	labek1.exe	7f01fd3522082d2
+32	1159	7499958531116328	CMakeFiles/labek1.dir/Person.cpp.obj	884aa6b99eb0a5f3
+47	1067	7499958531266233	CMakeFiles/labek1.dir/Teacher.cpp.obj	6e1582f36cb001e5
+39	1225	7499978225480383	CMakeFiles/labek1.dir/Student.cpp.obj	74812ef938e771ea
+20	1037	7499988560316778	CMakeFiles/labek1.dir/Animal.cpp.obj	83d807e6a80a575b
+65	1548	7500005603406026	CMakeFiles/labek1.dir/Dog.cpp.obj	4bb3d88f4202f1cb
+40	1563	7500005603154632	CMakeFiles/labek1.dir/Animal.cpp.obj	83d807e6a80a575b
+13	1696	7500005602885280	CMakeFiles/labek1.dir/main.cpp.obj	99482c6a1ef340b5
+1696	3208	7500005619713468	labek1.exe	d83602db2d10fc40
+1841	37266	7500015055079712	CMakeFiles/labek1.dir/main.cpp.obj	99482c6a1ef340b5
