@@ -22,8 +22,9 @@ public:
     void setName(string name1);
     bool getIs_protected_animal();
     void SetIs_protected_animal(bool protected_animal);
-    void getVoice();
+    void giveVoice();
     void info();
+    static int howManyProtectedAnimals (Animal a[], int length);
 };
 
 

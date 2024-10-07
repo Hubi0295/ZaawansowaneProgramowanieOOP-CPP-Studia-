@@ -18,8 +18,9 @@ public:
     Dog(string breed1,int levelOfGuideSkills1,int levelOfTrackerSkills1);
     void setSkillLevel(int type, int value);
     int getSkillLevel(int type);
-    void getVoice();
+    void giveVoice();
     void info();
+    static int howManyTrackerDogs(Dog a[], int length);
 };
 
 

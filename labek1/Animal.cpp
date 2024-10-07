@@ -37,10 +37,19 @@ bool Animal::getIs_protected_animal() {
 void Animal::SetIs_protected_animal(bool protected_animal) {
     protectedAnimal = protected_animal;
 }
-void Animal::getVoice() {
+void Animal::giveVoice() {
     cout<<"Chrum, miau, hau, piiiii"<<endl;
 }
 void Animal::info() {
     cout<<"Limb_nr: "<<limbNr<<"; Name: "<<name<<" Protected: "<<protectedAnimal<<endl;
+}
+int Animal::howManyProtectedAnimals(Animal a[], int length) {
+    int num=0;
+    for(int i=0;i<length;i++) {
+        if(a[i].getIs_protected_animal()) {
+            num++;
+        }
+    }
+    return num;
 }
 

@@ -24,16 +24,19 @@ void Dog::setSkillLevel(int type, int value) {
     if(value>=1 && value<=10) {
         if(type==0) {
             levelOfGuideSkills=value;
+            return;
         }
         else if(type==1) {
             levelOfTrackerSkills=value;
+            return;
         }
         else {
-            cout<<"Zły podany typ"<<endl;
+            cout<<"Zly podany typ"<<endl;
+            return;
         }
     }
 
-    cout<<"Zła podana wartosc"<<endl;
+    cout<<"Zla podana wartosc"<<endl;
 
 }
 int Dog::getSkillLevel(int type) {
@@ -50,13 +53,22 @@ int Dog::getSkillLevel(int type) {
         return levelOfTrackerSkills;
     }
     else {
-        cout<<"Zły podany typ"<<endl;
+        cout<<"Zly podany typ"<<endl;
         return 0;
     }
 }
-void Dog::getVoice() {
+void Dog::giveVoice() {
     cout<<"Hau Hau"<<endl;
 }
 void Dog::info() {
-    cout<<" limbnr"<<getLimb_nr()<<" name: "<<getName()<<" isProtected"<<getIs_protected_animal()<<" breed: "<<breed<<" LevelOfGuideSkills:"<<levelOfGuideSkills<<" LevelOfTrackerSkills"<<levelOfTrackerSkills<<endl;
+    cout<<" limbnr: "<<getLimb_nr()<<" name: "<<getName()<<" isProtected"<<getIs_protected_animal()<<" breed: "<<breed<<" LevelOfGuideSkills:"<<levelOfGuideSkills<<" LevelOfTrackerSkills"<<levelOfTrackerSkills<<endl;
+}
+int Dog::howManyTrackerDogs(Dog a[],int length) {
+    int num=0;
+    for(int i=0;i<length;i++) {
+        if(a[i].levelOfTrackerSkills>a[i].levelOfGuideSkills) {
+            num++;
+        }
+    }
+    return num;
 }
