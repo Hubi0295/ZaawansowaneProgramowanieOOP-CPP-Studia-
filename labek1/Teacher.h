@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #ifndef TEACHER_H
 #define TEACHER_H
 #include "Person.h"

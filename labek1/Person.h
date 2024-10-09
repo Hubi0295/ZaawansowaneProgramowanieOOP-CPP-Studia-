@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #ifndef PERSON_H
 #define PERSON_H
 

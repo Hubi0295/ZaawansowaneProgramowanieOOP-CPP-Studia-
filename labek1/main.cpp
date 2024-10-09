@@ -1,5 +1,4 @@
 #include <iostream>
-
 #include "Animal.h"
 #include "Cat.h"
 #include "Dog.h"
@@ -7,7 +6,6 @@
 #include "Teacher.h"
 #include "Student.h"
 int main() {
-
    cout<<endl<<"Obiekty klasy Person"<<endl;
    Person o1("Grazyna","Nowak",45);
    o1.showInfoPerson();
@@ -111,22 +109,22 @@ int main() {
 
    cout<<endl<<endl;
    Dog psy[3];
-   psy[0]=Dog("astroidDestroyer",3,6);
-   psy[1]=Dog("antek",5,6);
-   psy[2]=Dog("janek",6,5);
-   cout<<"Liczba psww u ktwrych level Trackera jest wiekszy od levela Guida: "<<Dog::howManyProtectedAnimals(psy,3)<<endl;
+   psy[0]=Dog(4,"kajetk",1,"mieszaniec",3,6);
+   psy[1]=Dog(4,"janek",0,"szpic",6,4);
+   psy[2]=Dog(4,"tadek",1,"owczarek",3,6);
+   Dog::howManyTrackerDogs(psy,3);
 
    cout<<endl<<endl;
    Cat koty[3];
    koty[0]=Cat(4,"astroidDestroyer1",false);
-   koty[0].initCat(5);
+   koty[0].initCat(9);
    koty[0].initMice();
    koty[1]=Cat(3,"astroidDestroyer2",true);
-   koty[1].initCat(4);
+   koty[1].initCat(9);
    koty[1].initMice();
    koty[2]=Cat(2,"astroidDestroyer3",false);
-   koty[2].initCat(11);
+   koty[2].initCat(8);
    koty[2].initMice();
-   cout<<"Ile myszy zostalo upolowanych: "<<Cat::howManyCats(koty,3)<<endl;
+   Cat::howManyCats(koty,3);
    return 0;
 }

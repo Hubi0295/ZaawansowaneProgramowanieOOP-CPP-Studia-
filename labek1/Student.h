@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #ifndef STUDENT_H
 #define STUDENT_H
 

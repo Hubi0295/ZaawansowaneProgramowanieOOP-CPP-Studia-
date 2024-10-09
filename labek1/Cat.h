@@ -1,7 +1,3 @@
-//
-// Created by Hubert on 07.10.2024.
-//
-
 #ifndef CAT_H
 #define CAT_H
 #include "Animal.h"
@@ -21,7 +17,7 @@ public:
     int getMice(int index);
     void giveVoice();
     void info();
-    static int howManyCats(Cat a[],int length);
+    static void howManyCats(Cat a[],int length);
 
 };
 

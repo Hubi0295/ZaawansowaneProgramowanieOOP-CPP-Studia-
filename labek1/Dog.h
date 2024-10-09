@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #ifndef DOG_H
 #define DOG_H
 #include "Animal.h"
@@ -20,7 +16,7 @@ public:
     int getSkillLevel(int type);
     void giveVoice();
     void info();
-    static int howManyTrackerDogs(Dog a[], int length);
+    static void howManyTrackerDogs(Dog a[], int length);
 };
 
 

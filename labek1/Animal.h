@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #ifndef ANIMAL_H
 #define ANIMAL_H
 
@@ -15,13 +11,13 @@ private:
     bool protectedAnimal;
 public:
     Animal();
-    Animal(int limbNr1, string Name1, bool protectedAnimal1);
-    int getLimb_nr();
-    void setLimb_nr(int limb_nr1);
+    Animal(int limbNr1, string Name1, bool protectedAnimal1=true);
+    int getLimbNr();
+    void setLimbNr(int limb_nr1);
     string getName();
     void setName(string name1);
-    bool getIs_protected_animal();
-    void SetIs_protected_animal(bool protected_animal);
+    bool getProtected_animal();
+    void SetProtected_animal(bool protected_animal);
     void giveVoice();
     void info();
     static int howManyProtectedAnimals (Animal a[], int length);

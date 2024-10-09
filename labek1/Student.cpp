@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-07.
-//
-
 #include "Student.h"
 #include <iostream>
 using namespace std;
