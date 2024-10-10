@@ -30,7 +30,7 @@ bool Animal::getProtected_animal() {
     return protectedAnimal;
 }
 
-void Animal::SetProtected_animal(bool protected_animal) {
+void Animal::setProtected_animal(bool protected_animal) {
     protectedAnimal = protected_animal;
 }
 void Animal::giveVoice() {

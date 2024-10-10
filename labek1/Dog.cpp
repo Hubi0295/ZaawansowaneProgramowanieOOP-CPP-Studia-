@@ -21,11 +21,8 @@ Dog::Dog(int limbnr1,string name1,bool isProtected, string breed1,int levelOfGui
     levelOfTrackerSkills = levelOfTrackerSkills1;
     cout<<"Konstruktor klasy bazowej -Dog"<<endl;
 }
-Dog::Dog(string breed1,int levelOfGuideSkills1,int levelOfTrackerSkills1) {
-    breed=breed1;
-    levelOfGuideSkills=levelOfGuideSkills1;
-    levelOfTrackerSkills = levelOfTrackerSkills1;
-    cout << "Konstruktor bez klasy bazowej z arg- Dog" << endl;
+Dog::Dog(int limbnr1,string name1,bool isProtected):Animal(limbnr1,name1,isProtected) {
+    cout << "Konstruktor klasy pochodnej -Dog" << endl;
 }
 void Dog::setSkillLevel(int type, int value) {
     if(value>=1 && value<=10) {

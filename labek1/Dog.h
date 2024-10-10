@@ -6,12 +6,12 @@ using namespace std;
 class Dog: public Animal {
 private:
     string breed;
-    int levelOfGuideSkills;
-    int levelOfTrackerSkills;
+    int levelOfGuideSkills=0;
+    int levelOfTrackerSkills=0;
 public:
     Dog();
     Dog(int limbnr1,string name1,bool isProtected, string breed1,int levelOfGuideSkills1,int levelOfTrackerSkills1);
-    Dog(string breed1,int levelOfGuideSkills1,int levelOfTrackerSkills1);
+    Dog(int limbnr1,string name1,bool isProtected);
     void setSkillLevel(int type, int value);
     int getSkillLevel(int type);
     void giveVoice();

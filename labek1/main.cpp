@@ -95,7 +95,6 @@ int main() {
    cout<<endl;
    Cat kotek(4,"kotek",true);
    kotek.initCat(5);
-   kotek.initMice();
    kotek.info();
 
    Animal zwierzeta[6];
@@ -118,13 +117,13 @@ int main() {
    Cat koty[3];
    koty[0]=Cat(4,"astroidDestroyer1",false);
    koty[0].initCat(9);
-   koty[0].initMice();
    koty[1]=Cat(3,"astroidDestroyer2",true);
    koty[1].initCat(9);
-   koty[1].initMice();
    koty[2]=Cat(2,"astroidDestroyer3",false);
    koty[2].initCat(8);
-   koty[2].initMice();
    Cat::howManyCats(koty,3);
+
+
+
    return 0;
 }

@@ -5,12 +5,14 @@ Cat::Cat(int limbs1,string name1,bool is_protected1):Animal(limbs1,name1,is_prot
 Cat::Cat(){
 }
 void Cat::initCat(int levelOfMouseHunting1){
+
     while(levelOfMouseHunting1<=0||levelOfMouseHunting1>10){
         cout<<"Zla wartosc podaj nowa z zakresu <1,10>: ";
         cin>>levelOfMouseHunting1;
     }
     levelOfMouseHunting=levelOfMouseHunting1;
     mice=new int[5];
+    this->initMice();
 }
 void Cat::initMice(){
     for(int i=0;i<5;i++) {

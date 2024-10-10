@@ -5,7 +5,7 @@
 
 class Cat:public Animal{
 private:
-    int levelOfMouseHunting;
+    int levelOfMouseHunting=0;
     int *mice;
 public:
     Cat(int limbs1,string name,bool is_protected);
