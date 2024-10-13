@@ -1,6 +1,3 @@
-//
-// Created by Daniel on 2024-10-13.
-//
 
 #ifndef BUFOR_H
 #define BUFOR_H
