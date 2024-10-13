@@ -1,6 +1,3 @@
-//
-// Created by Daniel on 2024-10-12.
-//
 
 #ifndef CIRCLE_H
 #define CIRCLE_H
