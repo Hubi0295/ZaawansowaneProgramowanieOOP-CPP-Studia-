@@ -1,6 +1,4 @@
-//
-// Created by Daniel on 2024-10-12.
-//
+
 
 #ifndef EMPLOYEE_H
 #define EMPLOYEE_H
