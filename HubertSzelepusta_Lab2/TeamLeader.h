@@ -1,6 +1,4 @@
-//
-// Created by Daniel on 2024-10-13.
-//
+
 
 #ifndef TEAMLEADER_H
 #define TEAMLEADER_H
