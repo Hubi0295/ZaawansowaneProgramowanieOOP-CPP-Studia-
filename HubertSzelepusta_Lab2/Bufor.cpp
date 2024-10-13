@@ -1,7 +1,3 @@
-//
-// Created by Daniel on 2024-10-13.
-//
-
 #include "Bufor.h"
 #include <iostream>
 using namespace std;
