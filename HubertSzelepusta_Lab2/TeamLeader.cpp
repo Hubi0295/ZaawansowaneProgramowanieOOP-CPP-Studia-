@@ -1,6 +1,4 @@
-//
-// Created by Daniel on 2024-10-13.
-//
+
 
 #include "TeamLeader.h"
 #include "Employee.h"
