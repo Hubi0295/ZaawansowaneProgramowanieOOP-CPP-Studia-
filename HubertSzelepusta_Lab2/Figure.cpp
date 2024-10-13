@@ -1,6 +1,4 @@
-//
-// Created by Daniel on 2024-10-12.
-//
+
 
 #include "Figure.h"
 #include <iostream>
