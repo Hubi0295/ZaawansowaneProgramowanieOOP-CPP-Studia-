@@ -1,6 +1,4 @@
-//
-// Created by Daniel on 2024-10-12.
-//
+
 
 #ifndef FIGURE_H
 #define FIGURE_H
