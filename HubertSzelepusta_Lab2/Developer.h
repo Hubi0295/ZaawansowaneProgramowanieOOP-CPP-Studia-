@@ -1,6 +1,3 @@
-//
-// Created by Daniel on 2024-10-12.
-//
 
 #ifndef DEVELOPER_H
 #define DEVELOPER_H
