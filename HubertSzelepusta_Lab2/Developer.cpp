@@ -1,6 +1,3 @@
-//
-// Created by Daniel on 2024-10-12.
-//
 
 #include "Developer.h"
 #include "Employee.h"
