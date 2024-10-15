@@ -15,4 +15,5 @@ add_executable(labek1 main.cpp
         Dog.cpp
         Dog.h
         Cat.cpp
-        Cat.h)
+        Cat.h
+        ../HubertSzelepusta_Lab2/main.cpp)

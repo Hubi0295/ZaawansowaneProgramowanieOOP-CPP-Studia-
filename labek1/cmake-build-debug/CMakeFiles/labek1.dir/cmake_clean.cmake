@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/labek1.dir/Animal.cpp.obj"
   "CMakeFiles/labek1.dir/Animal.cpp.obj.d"
+  "CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj"
+  "CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj.d"
   "CMakeFiles/labek1.dir/Cat.cpp.obj"
   "CMakeFiles/labek1.dir/Cat.cpp.obj.d"
   "CMakeFiles/labek1.dir/Dog.cpp.obj"

@@ -52,10 +52,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1
+CMAKE_SOURCE_DIR = C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/labek1.dir/depend.make
@@ -69,102 +69,116 @@ include CMakeFiles/labek1.dir/progress.make
 include CMakeFiles/labek1.dir/flags.make
 
 CMakeFiles/labek1.dir/main.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/main.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/main.cpp
+CMakeFiles/labek1.dir/main.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/main.cpp
 CMakeFiles/labek1.dir/main.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labek1.dir/main.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/main.cpp.obj -MF CMakeFiles\labek1.dir\main.cpp.obj.d -o CMakeFiles\labek1.dir\main.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/labek1.dir/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/main.cpp.obj -MF CMakeFiles\labek1.dir\main.cpp.obj.d -o CMakeFiles\labek1.dir\main.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\main.cpp
 
 CMakeFiles/labek1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/main.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\main.cpp > CMakeFiles\labek1.dir\main.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\main.cpp > CMakeFiles\labek1.dir\main.cpp.i
 
 CMakeFiles/labek1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/main.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\main.cpp -o CMakeFiles\labek1.dir\main.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\main.cpp -o CMakeFiles\labek1.dir\main.cpp.s
 
 CMakeFiles/labek1.dir/Person.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Person.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Person.cpp
+CMakeFiles/labek1.dir/Person.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Person.cpp
 CMakeFiles/labek1.dir/Person.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labek1.dir/Person.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Person.cpp.obj -MF CMakeFiles\labek1.dir\Person.cpp.obj.d -o CMakeFiles\labek1.dir\Person.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Person.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/labek1.dir/Person.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Person.cpp.obj -MF CMakeFiles\labek1.dir\Person.cpp.obj.d -o CMakeFiles\labek1.dir\Person.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Person.cpp
 
 CMakeFiles/labek1.dir/Person.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Person.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Person.cpp > CMakeFiles\labek1.dir\Person.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Person.cpp > CMakeFiles\labek1.dir\Person.cpp.i
 
 CMakeFiles/labek1.dir/Person.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Person.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Person.cpp -o CMakeFiles\labek1.dir\Person.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Person.cpp -o CMakeFiles\labek1.dir\Person.cpp.s
 
 CMakeFiles/labek1.dir/Teacher.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Teacher.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Teacher.cpp
+CMakeFiles/labek1.dir/Teacher.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Teacher.cpp
 CMakeFiles/labek1.dir/Teacher.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/labek1.dir/Teacher.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Teacher.cpp.obj -MF CMakeFiles\labek1.dir\Teacher.cpp.obj.d -o CMakeFiles\labek1.dir\Teacher.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Teacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/labek1.dir/Teacher.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Teacher.cpp.obj -MF CMakeFiles\labek1.dir\Teacher.cpp.obj.d -o CMakeFiles\labek1.dir\Teacher.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Teacher.cpp
 
 CMakeFiles/labek1.dir/Teacher.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Teacher.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Teacher.cpp > CMakeFiles\labek1.dir\Teacher.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Teacher.cpp > CMakeFiles\labek1.dir\Teacher.cpp.i
 
 CMakeFiles/labek1.dir/Teacher.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Teacher.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Teacher.cpp -o CMakeFiles\labek1.dir\Teacher.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Teacher.cpp -o CMakeFiles\labek1.dir\Teacher.cpp.s
 
 CMakeFiles/labek1.dir/Student.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Student.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Student.cpp
+CMakeFiles/labek1.dir/Student.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Student.cpp
 CMakeFiles/labek1.dir/Student.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labek1.dir/Student.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Student.cpp.obj -MF CMakeFiles\labek1.dir\Student.cpp.obj.d -o CMakeFiles\labek1.dir\Student.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/labek1.dir/Student.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Student.cpp.obj -MF CMakeFiles\labek1.dir\Student.cpp.obj.d -o CMakeFiles\labek1.dir\Student.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Student.cpp
 
 CMakeFiles/labek1.dir/Student.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Student.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Student.cpp > CMakeFiles\labek1.dir\Student.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Student.cpp > CMakeFiles\labek1.dir\Student.cpp.i
 
 CMakeFiles/labek1.dir/Student.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Student.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Student.cpp -o CMakeFiles\labek1.dir\Student.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Student.cpp -o CMakeFiles\labek1.dir\Student.cpp.s
 
 CMakeFiles/labek1.dir/Animal.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Animal.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Animal.cpp
+CMakeFiles/labek1.dir/Animal.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Animal.cpp
 CMakeFiles/labek1.dir/Animal.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labek1.dir/Animal.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Animal.cpp.obj -MF CMakeFiles\labek1.dir\Animal.cpp.obj.d -o CMakeFiles\labek1.dir\Animal.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/labek1.dir/Animal.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Animal.cpp.obj -MF CMakeFiles\labek1.dir\Animal.cpp.obj.d -o CMakeFiles\labek1.dir\Animal.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Animal.cpp
 
 CMakeFiles/labek1.dir/Animal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Animal.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Animal.cpp > CMakeFiles\labek1.dir\Animal.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Animal.cpp > CMakeFiles\labek1.dir\Animal.cpp.i
 
 CMakeFiles/labek1.dir/Animal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Animal.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Animal.cpp -o CMakeFiles\labek1.dir\Animal.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Animal.cpp -o CMakeFiles\labek1.dir\Animal.cpp.s
 
 CMakeFiles/labek1.dir/Dog.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Dog.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Dog.cpp
+CMakeFiles/labek1.dir/Dog.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Dog.cpp
 CMakeFiles/labek1.dir/Dog.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labek1.dir/Dog.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Dog.cpp.obj -MF CMakeFiles\labek1.dir\Dog.cpp.obj.d -o CMakeFiles\labek1.dir\Dog.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Dog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/labek1.dir/Dog.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Dog.cpp.obj -MF CMakeFiles\labek1.dir\Dog.cpp.obj.d -o CMakeFiles\labek1.dir\Dog.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Dog.cpp
 
 CMakeFiles/labek1.dir/Dog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Dog.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Dog.cpp > CMakeFiles\labek1.dir\Dog.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Dog.cpp > CMakeFiles\labek1.dir\Dog.cpp.i
 
 CMakeFiles/labek1.dir/Dog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Dog.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Dog.cpp -o CMakeFiles\labek1.dir\Dog.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Dog.cpp -o CMakeFiles\labek1.dir\Dog.cpp.s
 
 CMakeFiles/labek1.dir/Cat.cpp.obj: CMakeFiles/labek1.dir/flags.make
-CMakeFiles/labek1.dir/Cat.cpp.obj: C:/Users/Hubert/CLionProjects/AdvancedCppLab/labek1/Cat.cpp
+CMakeFiles/labek1.dir/Cat.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/labek1/Cat.cpp
 CMakeFiles/labek1.dir/Cat.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labek1.dir/Cat.cpp.obj"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Cat.cpp.obj -MF CMakeFiles\labek1.dir\Cat.cpp.obj.d -o CMakeFiles\labek1.dir\Cat.cpp.obj -c C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Cat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/labek1.dir/Cat.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/Cat.cpp.obj -MF CMakeFiles\labek1.dir\Cat.cpp.obj.d -o CMakeFiles\labek1.dir\Cat.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Cat.cpp
 
 CMakeFiles/labek1.dir/Cat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/Cat.cpp.i"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Cat.cpp > CMakeFiles\labek1.dir\Cat.cpp.i
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Cat.cpp > CMakeFiles\labek1.dir\Cat.cpp.i
 
 CMakeFiles/labek1.dir/Cat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/Cat.cpp.s"
-	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Cat.cpp -o CMakeFiles\labek1.dir\Cat.cpp.s
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Cat.cpp -o CMakeFiles\labek1.dir\Cat.cpp.s
+
+CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj: CMakeFiles/labek1.dir/flags.make
+CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj: C:/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp
+CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj: CMakeFiles/labek1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj -MF CMakeFiles\labek1.dir\C_\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp.obj.d -o CMakeFiles\labek1.dir\C_\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp.obj -c C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp
+
+CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp > CMakeFiles\labek1.dir\C_\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp.i
+
+CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s"
+	C:\PROGRA~1\JETBRA~1\CLION2~1.2\bin\mingw\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp -o CMakeFiles\labek1.dir\C_\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\HubertSzelepusta_Lab2\main.cpp.s
 
 # Object files for target labek1
 labek1_OBJECTS = \
@@ -174,7 +188,8 @@ labek1_OBJECTS = \
 "CMakeFiles/labek1.dir/Student.cpp.obj" \
 "CMakeFiles/labek1.dir/Animal.cpp.obj" \
 "CMakeFiles/labek1.dir/Dog.cpp.obj" \
-"CMakeFiles/labek1.dir/Cat.cpp.obj"
+"CMakeFiles/labek1.dir/Cat.cpp.obj" \
+"CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj"
 
 # External object files for target labek1
 labek1_EXTERNAL_OBJECTS =
@@ -186,11 +201,12 @@ labek1.exe: CMakeFiles/labek1.dir/Student.cpp.obj
 labek1.exe: CMakeFiles/labek1.dir/Animal.cpp.obj
 labek1.exe: CMakeFiles/labek1.dir/Dog.cpp.obj
 labek1.exe: CMakeFiles/labek1.dir/Cat.cpp.obj
+labek1.exe: CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj
 labek1.exe: CMakeFiles/labek1.dir/build.make
 labek1.exe: CMakeFiles/labek1.dir/linkLibs.rsp
 labek1.exe: CMakeFiles/labek1.dir/objects1.rsp
 labek1.exe: CMakeFiles/labek1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable labek1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable labek1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\labek1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -202,6 +218,6 @@ CMakeFiles/labek1.dir/clean:
 .PHONY : CMakeFiles/labek1.dir/clean
 
 CMakeFiles/labek1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1 C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1 C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles\labek1.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1 C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1 C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles\labek1.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/labek1.dir/depend
 

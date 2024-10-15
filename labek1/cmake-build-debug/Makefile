@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2024.2.2\bin\cmake\win\x64\bin\cmake.exe"
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1
+CMAKE_SOURCE_DIR = C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -151,6 +151,30 @@ Animal.s: Animal.cpp.s
 Animal.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\labek1.dir\build.make CMakeFiles/labek1.dir/Animal.cpp.s
 .PHONY : Animal.cpp.s
+
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.obj: C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.obj
+
+# target to build an object file
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labek1.dir\build.make CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.obj
+
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.i: C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.i
+
+# target to preprocess a source file
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labek1.dir\build.make CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.i
+
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.s: C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.s
+
+# target to generate assembly for a file
+C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\labek1.dir\build.make CMakeFiles/labek1.dir/C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s
+.PHONY : C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.cpp.s
 
 Cat.obj: Cat.cpp.obj
 .PHONY : Cat.obj
@@ -308,6 +332,9 @@ help:
 	@echo ... Animal.obj
 	@echo ... Animal.i
 	@echo ... Animal.s
+	@echo ... C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.obj
+	@echo ... C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.i
+	@echo ... C_/Users/Hubert/CLionProjects/ZaawansowaneProgramowanieOOP-CPP-Studia-/HubertSzelepusta_Lab2/main.s
 	@echo ... Cat.obj
 	@echo ... Cat.i
 	@echo ... Cat.s

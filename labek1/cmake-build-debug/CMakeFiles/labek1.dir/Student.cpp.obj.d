@@ -1,7 +1,7 @@
 CMakeFiles/labek1.dir/Student.cpp.obj: \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Student.cpp \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Student.h \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Person.h \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Student.cpp \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Student.h \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Person.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \

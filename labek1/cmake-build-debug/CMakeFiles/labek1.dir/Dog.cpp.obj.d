@@ -1,7 +1,7 @@
 CMakeFiles/labek1.dir/Dog.cpp.obj: \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Dog.cpp \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Dog.h \
- C:\Users\Hubert\CLionProjects\AdvancedCppLab\labek1\Animal.h \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Dog.cpp \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Dog.h \
+ C:\Users\Hubert\CLionProjects\ZaawansowaneProgramowanieOOP-CPP-Studia-\labek1\Animal.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Program\ Files/JetBrains/CLion\ 2024.2.2/bin/mingw/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
