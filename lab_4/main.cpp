@@ -2,7 +2,7 @@
 #include <algorithm>
 #include <iostream>
 #include <random>
-#include <vector>'
+#include <vector>
 #include "Compare.h"
 #include "Even.h"
 class Student;
@@ -139,5 +139,9 @@ int main() {
     cout<<endl;
     sort(st.begin(),st.end(),Compare());
     for_each(st.begin(),st.end(),showMark);
+
+
+    //zad2
+    cout<<std::mt19937(std::random_device()())<<endl;
     return 0;
 }
