@@ -5,8 +5,53 @@
 #include <vector>
 #include "Compare.h"
 #include "Even.h"
-class Student;
+#include <list>
+#include <ostream>
+#include "City.h"
+#include "CompareByNumberCitizens.h"
+#include "CompareByNumberDigits.h"
+#include "CompareBySumDigits.h"
+
 using namespace std;
+City c1;
+City c2;
+void showCities(vector<City> &c) {
+    for(vector<City>::iterator it = c.begin(); it != c.end(); it++) {
+        it->show_city();
+    }
+}
+void maxPostalCodeNumber(City &c) {
+    list<Address> maxPostalCode = c.get_lista_adresow();
+    if(maxPostalCode.size() > c1.get_lista_adresow().size()) {
+        c1=c;
+    }
+}
+void minNumberOfCitizens(City &c) {
+    if(c.get_citizens().size()<c2.get_citizens().size()) {
+        c2=c;
+    }
+}
+void the_most(vector<City> c, int mode) {
+    switch(mode) {
+        case 0: c1=c.front();for_each(c.begin(),c.end(),maxPostalCodeNumber);break;
+        case 1: c2=c.front();for_each(c.begin(),c.end(),minNumberOfCitizens);break;
+        default:break;
+    }
+}
+void statistics(vector<City> c) {
+    for(vector<City>::iterator it = c.begin(); it != c.end(); it++) {
+        cout<<endl<<"Nazwa miasta: ";it->show_city();
+        cout<<"Liczba mieszkancow: "<<it->get_citizens().size()<<endl;
+        cout<<"Liczba kobiet: "<<it->women()<<endl;
+        cout<<"Liczba mezczyzn: "<<it->get_citizens().size()-it->women()<<endl;
+        cout<<"Liczba osob pelnoletnich: "<<it->adults()<<endl;
+        cout<<"Liczba osob niepelnoletnich: "<<it->get_citizens().size()-it->adults()<<endl;
+    }
+}
+
+void sort_cities(vector<City> &c) {
+    sort(c.begin(),c.end(),CompareByNumberCitizens());
+}
 template<typename T>
 void show(T &con) {
     for(typename T::iterator it = con.begin(); it != con.end(); it++) {
@@ -14,10 +59,24 @@ void show(T &con) {
     }
     cout << endl;
 }
-
-void print(int &el) {
-    cout<<el<<"***";
+template<typename T>
+void dodawaj(list<T> &l, int n) {
+    int x = l.size();
+    while(x<n) {
+        int losowa=rand()%200-100;
+        if(losowa<0) {
+            l.push_back(losowa);
+        }
+        else {
+            l.push_front(losowa);
+        }
+        x+=1;
+    }
 }
+void print(int &x) {
+    cout<<x<<" ";
+}
+
 void add10(int &el) {
     el=el+10;
 }
@@ -142,6 +201,77 @@ int main() {
 
 
     //zad2
-    cout<<std::mt19937(std::random_device()())<<endl;
+    list<int> listt;
+    dodawaj(listt,rand()%1000);
+    show(listt);
+    cout<<endl;
+
+    //zad3
+    vector<City> cities2;
+
+    City city1("New york");
+    city1.addCitizen(Citizen(Citizen("Jack","Sparrow",25,'M',"21-112")));
+    city1.addCitizen(Citizen(Citizen("Mike","Pol",15,'M',"21-112")));
+    city1.addCitizen(Citizen(Citizen("Janick","Speer",26,'M',"21-100")));
+    city1.addCitizen(Citizen(Citizen("Monica","Kowalczyk",25,'W',"21-100")));
+    city1.addCitizen(Citizen(Citizen("Ela","Siewiera",10,'W',"21-100")));
+    city1.addCitizen(Citizen(Citizen("Joanna","Ult",88,'W',"21-111")));
+    city1.postal_codes();
+    cities2.push_back(city1);
+
+    City city2("Berlin");
+    city2.addCitizen(Citizen("Hans", "Müller", 34, 'M', "10-101"));
+    city2.addCitizen(Citizen("Anna", "Schmidt", 28, 'W', "10-101"));
+    city2.addCitizen(Citizen("Uwe", "Becker", 42, 'M', "10-102"));
+    city2.addCitizen(Citizen("Lena", "Fischer", 22, 'W', "10-102"));
+    city2.addCitizen(Citizen("Klaus", "Schneider", 30, 'M', "10-103"));
+    city2.addCitizen(Citizen("Ingrid", "Weber", 15, 'W', "10-103"));
+    city2.addCitizen(Citizen("Mark", "Weber", 15, 'M', "10-108"));
+
+    city2.postal_codes();
+    cities2.push_back(city2);
+
+    City city3("Lublin");
+    city3.addCitizen(Citizen(Citizen("Marine","Smiech",25,'W',"21-111")));
+    city3.addCitizen(Citizen(Citizen("John","Snow",10,'M',"21-111")));
+    city3.addCitizen(Citizen(Citizen("Thomas","Partey",25,'M',"21-112")));
+    city3.addCitizen(Citizen(Citizen("Pite","Moroon",10,'M',"21-113")));
+
+    city3.postal_codes();
+    cities2.push_back(city3);
+
+    c1.postal_codes();
+    c2.postal_codes();
+
+
+    the_most(cities2,1);
+    the_most(cities2,0);
+
+    cout<<endl;
+    cout<<"Najwieksza liczba adresow: ";c1.show_city();cout<<endl;
+    cout<<"Najmniejsza liczba mieszkancow: ";c2.show_city();cout<<endl;
+
+    statistics(cities2);
+    cout<<"Przed sortowaniem: "<<endl;
+    showCities(cities2);
+    sort_cities(cities2);
+    cout<<"Po sortowaniu: "<<endl;
+    showCities(cities2);
+
+    //zad4
+    vector<int> kontener={111,222,333,444,555,666,111,222,333,777,11,0,1111};
+    cout<<"Przed sortowaniem rosnaca wedlug sumy cyfr: "<<endl;
+    for_each(kontener.begin(),kontener.end(),print);
+    cout<<endl;
+    cout<<"Po sortowaniu rosnaco wedlug sumy cyfr: "<<endl;
+    sort(kontener.begin(),kontener.end(),CompareBySumDigits());
+    for_each(kontener.begin(),kontener.end(),print);
+    cout<<endl;
+    cout<<"Przed sortowaniem malejaco wedlug liczby cyfr: "<<endl;
+    for_each(kontener.begin(),kontener.end(),print);
+    cout<<endl;
+    cout<<"Po sortowaniu malejaco wedlug liczby cyfr:"<<endl;
+    sort(kontener.begin(),kontener.end(),CompareByNumberDigits());
+    for_each(kontener.begin(),kontener.end(),print);
     return 0;
 }
