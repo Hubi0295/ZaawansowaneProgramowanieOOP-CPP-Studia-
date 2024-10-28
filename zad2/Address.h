@@ -16,7 +16,7 @@ private:
   Address(string postal_code, int number_of_citizens);
   string getPostalCode();
   int getNumberOfCitizens();
-
+  void increase_number_of_citizens();
 };
 
 

@@ -14,6 +14,7 @@ class City {
 private:
   vector<Citizen> citizens;
   string city_name;
+  list<Address> listaAdresow;
 public:
   City();
   City(string city_name);
@@ -25,7 +26,8 @@ public:
   int city_citizens();
   int adults();
   void postal_codes();
-
+  list<Address> get_lista_adresow();
+  vector<Citizen> get_citizens();
 
 };
 

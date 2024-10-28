@@ -16,3 +16,6 @@ string Address::getPostalCode(){
 int Address::getNumberOfCitizens(){
     return number_of_citizens;
 }
+void Address::increase_number_of_citizens() {
+    this->number_of_citizens=this->number_of_citizens+1;
+}

@@ -58,3 +58,27 @@ int  City::adults()
 {
     return count_if(citizens.begin(),citizens.end(),isAdult);
 }
+void City::postal_codes() {
+    for(int i=0;i<citizens.size();i++) {
+        int flaga=0;
+        for(list<Address>::iterator it=listaAdresow.begin(); it != listaAdresow.end(); it++) {
+            if(citizens[i].get_postal_code()==it->getPostalCode()) {
+                it->increase_number_of_citizens();
+                flaga=1;
+            }
+        }
+        if(flaga==0) {
+            listaAdresow.push_back(Address(citizens[i].get_postal_code(),1));
+        }
+    }
+    for(list<Address>::iterator it=listaAdresow.begin(); it != listaAdresow.end(); it++) {
+        cout<<it->getPostalCode()<<"->"<<it->getNumberOfCitizens()<<endl;
+    }
+    cout<<"Liczba unikatowych mieszkancow: "<<listaAdresow.size()<<endl;
+}
+list<Address> City::get_lista_adresow() {
+    return listaAdresow;
+}
+vector<Citizen> City::get_citizens() {
+    return citizens;
+}
