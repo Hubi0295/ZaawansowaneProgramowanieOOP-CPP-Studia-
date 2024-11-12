@@ -2,6 +2,7 @@
 // Created by Hubert on 12.11.2024.
 //
 
+
 #ifndef DICTIONARY_H
 #define DICTIONARY_H
 #include <map>
