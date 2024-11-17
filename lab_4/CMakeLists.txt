@@ -9,4 +9,16 @@ add_executable(lab_4 main.cpp
         Student.cpp
         Student.h
         Compare.cpp
-        Compare.h)
+        Compare.h
+        Address.cpp
+        Address.h
+        Citizen.cpp
+        Citizen.h
+        City.cpp
+        City.h
+        CompareByNumberCitizens.cpp
+        CompareByNumberCitizens.h
+        CompareByNumberDigits.cpp
+        CompareByNumberDigits.h
+        CompareBySumDigits.cpp
+        CompareBySumDigits.h)
