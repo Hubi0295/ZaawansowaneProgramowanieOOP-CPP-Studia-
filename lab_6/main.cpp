@@ -3,6 +3,7 @@
 #include <boost/multi_index/member.hpp>
 #include <boost/bind.hpp>
 #include <iostream>
+#include <map>
 #include <boost/multi_index/ordered_index.hpp>
 #include <boost/multi_index/random_access_index.hpp>
 #include "Print.h"
@@ -17,6 +18,22 @@
 #include "Operation.h"
 using namespace boost::multi_index;
 using namespace std;
+struct TypeCounter {
+    map<string, int>& typeCount;
+    explicit TypeCounter(map<string, int>& count) : typeCount(count) {}
+    template<typename T>
+    void operator()(const T& elem) const {
+        string typeName = typeid(elem).name();
+        typeCount[typeName]++;
+    }
+};
+
+
+map<string, int> zad4(const boost::fusion::vector<int, double, float, bool, char>& vec) {
+    map<string, int> typeCount;
+    boost::fusion::for_each(vec, TypeCounter(typeCount));
+    return typeCount;
+}
 template <typename T>
 void checkzad3(T val1, float val2) {
     if (val1 < val2) { // poprawiono warunek
@@ -239,8 +256,10 @@ int main() {
     // c->adult();
 
 
-    cout<<endl;
-    vector<int> vec1={-2,-1,0,1,2,3,4,5,15};
-    statystyka(vec1);
+    // cout<<endl;
+    // vector<int> vec1={-2,-1,0,1,2,3,4,5,15};
+    // statystyka(vec1);
+    boost::fusion::vector< int, double, float, bool, char> vec1{1,2.9,2.7,true,'a'};
+    zad4(vec1);
     return 0;
 }
