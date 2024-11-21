@@ -14,9 +14,10 @@ add_executable(lab_6 main.cpp
         Contact.cpp
         Contact.h
         Contacts.cpp
-        Contacts.h)
-set(BOOST_ROOT "..\\boost_1_86_0")
-find_package(Boost 1.86.0)
+        Contacts.h
+        main.cpp)
+set(BOOST_ROOT "..\\boost_1_83_0")
+find_package(Boost 1.83.0)
 if(NOT Boost_FOUND)
     message(FATAL_ERROR "Could not find boost!")
 endif()
