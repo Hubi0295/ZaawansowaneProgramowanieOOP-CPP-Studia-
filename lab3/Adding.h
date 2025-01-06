@@ -25,6 +25,11 @@ template<typename T>
 void Adding<T>::add(T value) {
     element += value;
 }
+template<>
+void Adding<string>::add(string value) {
+    element+=value;
+    cout<<"Dodaj stringa"<<endl;
+}
 template<typename T>
 void Adding<T>::show() {
     cout<<"Element: "<<element<<endl;
