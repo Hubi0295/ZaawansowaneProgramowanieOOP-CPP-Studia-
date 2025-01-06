@@ -3,6 +3,8 @@
 #include <algorithm>
 #include <vector>
 #include <functional>
+
+#include "Car.h"
 using namespace std;
 bool fn( int l, int r )
 {
@@ -20,7 +22,16 @@ void fun( function < int(int)> f, int n )
     for( int i = 0; i < n; ++i )
     cout << "f(" << i << ") = " << f(i) <<endl;
 }
-
+tuple<int,float,string> zad12_3(vector<string> napisy) {
+    int dlugosc_najkrotszego=napisy[0].length();
+    float srednia_dlugosc=0;
+    string najdluzszy_napis;
+    for_each(napisy.begin(),napisy.end(),[&dlugosc_najkrotszego](string x){if(x.length()<dlugosc_najkrotszego){dlugosc_najkrotszego=x.length();}});
+    for_each(napisy.begin(),napisy.end(),[&srednia_dlugosc](string x){srednia_dlugosc+=x.length();});
+    srednia_dlugosc /= napisy.size();
+    najdluzszy_napis= *max_element(napisy.begin(),napisy.end(),[](string x, string y){return x.length()<y.length();});
+    return make_tuple(dlugosc_najkrotszego,srednia_dlugosc,najdluzszy_napis);
+}
 int main()
 {
     tuple <char, int, float> t1;
@@ -103,7 +114,40 @@ int main()
     for_each(vec.begin(), vec.end(),[&even](int x){if(x%2==0){even++;}});
     cout<<"Patrzyste:"<<even<<endl;
 
-    remove_if(vec.begin(),vec.end(),[](int x)->bool{return x<0;});
+    vec.erase(std::remove_if(vec.begin(), vec.end(), [](int x) { return x < 0; }), vec.end());
+    sort(vec.begin(),vec.end(),[](int x, int y){if(x%2<y%2){return x<y;}return y>x;});
+    transform(vec.begin(),vec.end(),vec.begin(),[](int x){return x*(-1);});
     for_each(vec.begin(), vec.end(),[](int x){cout<<x<<"|";});
+    int wart = -9;
+    cout<<endl;
+    cout<<count_if(vec.begin(),vec.end(),[wart](int x){return x<wart;})<<endl;
+
+    vector<Car> samochody;
+    samochody.push_back(Car("opel",2015,5.4));
+    samochody.push_back(Car("bmw",2010,2.4));
+    samochody.push_back(Car("audi",2020,6.6));
+    sort(samochody.begin(),samochody.end(),[](const Car &x, const Car &y){return x.get_rok_prod()<y.get_rok_prod();});
+    int licznik=0;
+    for(Car x:samochody) {
+        licznik++;
+        cout<<"Samochod: "<<licznik<<" ";
+        x.show();
+    }
+    sort(samochody.begin(),samochody.end(),[](const Car &x, const Car &y){return x.get_poj_silnika()>y.get_poj_silnika();});
+    licznik=0;
+    for(Car x:samochody) {
+        licznik++;
+        cout<<"Samochod: "<<licznik<<" ";
+        x.show();
+    }
+
+    vector<string> xx;
+    xx.push_back("adasdd");
+    xx.push_back("asdasdasds");
+    xx.push_back("asd");
+    tuple<int,float,string> wynik = zad12_3(xx);
+    cout<<"Najkrotsze "<<get<0>(wynik)<<endl;
+    cout<<"Srednie "<<get<1>(wynik)<<endl;
+    cout<<"Najdluzsze "<<get<2>(wynik)<<endl;
     return 0;
 }
